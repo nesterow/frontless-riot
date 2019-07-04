@@ -5,7 +5,7 @@ Main purpose is to avoid concurent access to global variables when rendering com
 
 #### References
 Examples of cases where concurrent access can happen on backend: 
-  1. [A mutex for Node.JS](https://medium.com/@the1mills/a-better-mutex-for-node-js-4b4897fd9f11)
+  1. [Concurrency in Node.JS](https://medium.com/platformer-blog/node-js-concurrency-with-async-await-and-promises-b4c4ae8f4510)
   2. [Async/Await Hell](https://www.freecodecamp.org/news/avoiding-the-async-await-hell-c77a0fb71c4c/)
 
 For frontend guys : [Wait don't touch that](https://medium.engineering/wait-dont-touch-that-a211832adc3a)
