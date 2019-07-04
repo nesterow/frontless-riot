@@ -1,0 +1,13 @@
+<random>
+  {random}
+  <noop/>
+  <script>
+    export default {
+      random: 0,
+      onMounted(){
+        this.random = Math.random();
+        this.update();
+      }
+    }
+  </script>
+</random>

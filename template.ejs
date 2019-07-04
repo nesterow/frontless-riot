@@ -1,0 +1,32 @@
+/**
+FRONTLESS-RIOT
+Riot.JS With Dependency Injection for SSR applications.
+The code in generated automatically from riot.esm module
+*/
+<%- GLOBALS %>
+var COMPONENTS_REGISTRY = new Map();
+
+/**
+* riot.di({document, Node})
+*/
+const factory = ({document, Node}) => {
+  const getDocument = () => document;
+  const getNode = () => Node;
+<%- SANDBOX %>
+const COMPONENTS_IMPLEMENTATION_MAP$2 = new Map()
+function register(name, _ref) {
+  if (COMPONENTS_REGISTRY.has(name)) panic(`The component "${name}" was already registered`);
+  COMPONENTS_REGISTRY.set(name, _ref)
+}
+function unregister(name, _ref) {
+  if (!COMPONENTS_REGISTRY.has(name)) panic(`The component "${name}" was already registered`);
+  COMPONENTS_REGISTRY.delete(name, _ref)
+}
+COMPONENTS_REGISTRY.forEach((value, name) => {
+  register$1(name, value)
+})
+return <%- EXPORTS %>
+};
+
+module.exports = factory({});
+module.exports.di = factory;
