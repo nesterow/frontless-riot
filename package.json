@@ -1,6 +1,6 @@
 {
   "name": "@frontless/riot",
-  "version": "4.3.4",
+  "version": "4.3.5",
   "description": "Riot.JS with dependency injection",
   "main": "index.js",
   "repository": "git@github.com:nesterow/frontless-riot.git",
