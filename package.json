@@ -11,10 +11,9 @@
     "test": "gulp && mocha -r esm test/*.js"
   },
   "dependencies": {
-    "riot": "^4.3.5"
+    "riot": "^4.3.6"
   },
   "devDependencies": {
-    "@riotjs/compiler": "^4.3.5",
     "@riotjs/ssr": "^4.1.0",
     "chai": "^4.2.0",
     "ejs": "^2.6.2",
