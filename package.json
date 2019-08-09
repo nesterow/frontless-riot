@@ -1,6 +1,6 @@
 {
   "name": "@frontless/riot",
-  "version": "4.3.7",
+  "version": "4.3.8",
   "description": "Riot.JS with dependency injection",
   "main": "index.js",
   "repository": "git@github.com:nesterow/frontless-riot.git",
@@ -11,7 +11,7 @@
     "test": "gulp && mocha -r esm test/*.js"
   },
   "dependencies": {
-    "riot": "^4.3.7"
+    "riot": "^4.3.8"
   },
   "devDependencies": {
     "@riotjs/ssr": "^4.1.0",
