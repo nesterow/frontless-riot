@@ -11,17 +11,17 @@
     "test": "gulp && mocha -r esm test/*.js"
   },
   "dependencies": {
-    "riot": "^4.4.0"
+    "riot": "^4.5.1"
   },
   "devDependencies": {
-    "@riotjs/ssr": "^4.1.0",
+    "@riotjs/ssr": "^4.1.1",
     "chai": "^4.2.0",
-    "ejs": "^2.6.2",
+    "ejs": "^2.7.1",
     "esm": "^3.2.25",
     "gulp": "^4.0.2",
     "jsdom": "^15.1.1",
     "mocha": "^6.2.0",
-    "sinon": "^7.4.1",
+    "sinon": "^7.4.2",
     "sinon-chai": "^3.3.0"
   }
 }
